@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+  <header>
+
+    <img src="image/wraper.png" class="w-100" alt="">
+    <div class="container my-main">
+        <nav class="navbar navbar-expand-lg shadow navbar-dark rounded-4 p-2 my-nav">
+            <div class="container">
+                <img src="image/logo-sm.png" class="me-1" alt="">
+                <a class="navbar-brand fw-bold my-a" href="#GAME REVIEWS">GAME REVIEWS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active my-border vip game-btn" data-category="MMORPG" aria-current="page" href="#MMORPG">MMORPG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link game-btn  main-color"  data-category="SHOOTER" href="#SHOOTER">SHOOTER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link game-btn  main-color" data-category="SAILING" href="#SAILING">SAILING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link game-btn  main-color" data-category="PERMADEATH" href="#PERMADEATH">PERMADEATH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link game-btn  main-color" data-category="SUPERHERO" href="#SUPERHERO">SUPERHERO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link game-btn  main-color"  data-category="PIXEL"  href="#PIXEL">PIXEL</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<section class="mt-5">
+    <div class="container">
+        <div class="row game-row gx-4 gy-2">
+            <div class="d-flex my-spinner justify-content-center ">
+                <span class="Loader"></span>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="modal fade" id="gameDetailsModal" tabindex="-1" aria-labelledby="gameDetailsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="gameDetailsModalLabel">Game Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="gameDetailsContent"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <script src="JS/jquery-3.7.1.min.js"></script>
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/index.js"></script>
+</body>
+
+</html>

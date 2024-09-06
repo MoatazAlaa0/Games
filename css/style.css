@@ -1,0 +1,127 @@
+
+
+body {
+    background-color: #272B30;
+    
+}
+.game-card button{
+    padding: 3px 5px;
+    font-size: 12px;
+}
+
+.game-card{
+    transition: all 0.75s;
+    border: 1px solid rgba(0, 0, 0,0.2);
+    border-radius: 4px;
+    cursor: pointer;
+    filter: grayscale(75%);
+}
+.game-card:hover{
+    transform: scale(1.05);
+    filter: grayscale(0%);
+
+}
+.game-card p {
+
+    color: #8B8D90;
+    font-size: .875em;
+    font-family: "Playwrite NG Modern";
+}
+.game-card span {
+   
+    font-size: 10px;
+
+}
+.end-card{
+    border: 1px solid rgba(0, 0, 0,0.2);
+    border-radius: 4px;
+    padding: 5px 15px;
+}
+
+.Loader {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid #FFF;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  .Loader::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border-bottom: 4px solid #FF3D00;
+    border-left: 4px solid transparent;
+  }
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+  .my-spinner{
+    margin-top: 200px;
+  }
+  header img{
+    max-height: 30vh;
+    object-fit: cover;
+}
+  .my-a{
+    font-size: 15px;
+    font-family: "Playwrite NG Modern";
+  }
+  .vip {
+    color:#0790C2 !important;
+  }
+  .my-nav  {
+   
+    background-color: #3A497B ;
+    
+
+
+   margin:0px 40px;
+  }
+  .my-nav img {
+    width: 40px;
+  }
+  .main-color{
+    color: white ;
+  }
+  .nav-item  a:hover{
+color: #0790C2 ;
+  }
+  .navbar-collapse  li a {
+    font-family: "Playwrite NG Modern";
+    font-size: 10px;
+
+  }
+  .view{
+    background-color: #27282B;
+  }
+  article button{
+    background-color: #27282B;
+    border: 0.8px solid yellow !important;
+    transition: all 0.5s;
+  }
+  article button:hover {
+    background-color: rgb(211, 211, 7) !important;
+  }
+  article i {
+    color: gray;
+    cursor: pointer;
+  }
+  article i:hover{
+    color: #a8a6a6
+  }
+  article span{
+    font-size: 12px;
+  }
